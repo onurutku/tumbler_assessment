@@ -1,0 +1,148 @@
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+nav {
+  display: flex;
+  justify-content: right;
+}
+.right-box {
+  width: 25%;
+  height: 100px;
+  float: right;
+  position: fixed;
+}
+.right-box a {
+  margin: 5px;
+}
+.right-box button {
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+a {
+  cursor: pointer;
+}
+h1 {
+  font-weight: bold;
+  font-size: 50px;
+  color: #444444;
+}
+body {
+  height: 100vh;
+}
+.container {
+  width: 95%;
+  /* background-color: blue; */
+}
+.container a {
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+}
+.img {
+  display: flex;
+  justify-content: right;
+}
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+  height: auto;
+}
+.left {
+  width: 25%;
+  height: 200px;
+  /* background-color: brown; */
+  display: flex;
+  justify-content: right;
+  align-items: baseline;
+}
+.mid {
+  width: 48%;
+  height: 200px;
+  /* background-color: yellow; */
+}
+.right {
+  width: 25%;
+  height: 200px;
+  /* background-color: green; */
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.date {
+  display: flex;
+  font-size: 35px;
+  color: #cccccc;
+}
+.date-block {
+  font-size: 15px;
+  background-color: #6498cc;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-right: 7px;
+  padding-left: 7px;
+  text-align: center;
+  color: #a7bacc;
+  justify-content: right;
+}
+.post-title {
+  font-size: xx-large;
+  font-weight: bold;
+  padding-left: 5px;
+}
+.vl {
+  border-left: 6px solid green;
+  height: auto;
+  padding: 8px;
+}
+.v2 {
+  border-left: 6px solid #bbbbbb;
+  height: auto;
+  padding: 8px;
+}
+.span-title {
+  color: #888888;
+}
+.alinti {
+  font-size: 20px;
+  color: #212024;
+  margin-bottom: 30px;
+}
+.image img {
+  width: 100%;
+}
+.pass {
+  text-align: center;
+}
+.favourite a {
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+}
+li {
+  list-style-type: none;
+}
+.right p {
+  color: #888888;
+  text-align: right;
+  width: 60%;
+  padding-left: 50px;
+}
+li:nth-child(odd) {
+  color: red;
+}
+li:nth-child(even) {
+  color: green;
+}
